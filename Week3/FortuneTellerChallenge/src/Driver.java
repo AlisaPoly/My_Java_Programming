@@ -14,5 +14,9 @@ public class Driver {
         int age = input.nextInt();
         String resp = ft.futurePrediction(age);
         System.out.println(resp);
+        input.skip("\n");
+        System.out.println("Please enter your Star sign");
+        String starSign = input.nextLine();
+        ft.futurePrediction(starSign);
     }
 }
