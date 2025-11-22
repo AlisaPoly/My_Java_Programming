@@ -5,8 +5,8 @@ class BankAccount {
     private double balance;
 
     //------------------//
-    //   constructors   //
-    //------------------//
+    //    //   constructors   //
+    //    //------------------//
 
     public BankAccount() {
     }
